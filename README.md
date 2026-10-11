@@ -1,5 +1,7 @@
 # Iris ML Git Flow
 
+[![Tests Passing](https://github.com/justa8866/iris-ml-gitflow/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/justa8866/iris-ml-gitflow/actions/workflows/test.yml)
+
 A reproducible classification project using the Iris toy dataset bundled with scikit-learn. The project demonstrates exploratory data analysis, a baseline classifier, and a Git Flow release process.
 
 ## Dataset

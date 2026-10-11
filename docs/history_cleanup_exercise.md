@@ -12,3 +12,9 @@
 - Keep scaling inside the classifier pipeline to prevent test-set leakage.
 - Report accuracy and balanced accuracy together when classes may be uneven.
 - Inspect the confusion matrix to identify species-level errors.
+
+## Release
+
+- Merge reviewed feature work into the release branch only after tests pass.
+- Tag the verified main commit with a versioned release name.
+- Keep generated model files out of the release history.

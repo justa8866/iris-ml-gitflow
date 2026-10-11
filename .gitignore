@@ -11,5 +11,9 @@ htmlcov/
 !/data/.gitkeep
 /models/*
 !/models/.gitkeep
+/projects/*/data/*
+!/projects/*/data/.gitkeep
+/projects/*/models/*
+!/projects/*/models/.gitkeep
 *.joblib
 *.pkl

@@ -4,6 +4,14 @@
 
 A reproducible classification project using the Iris toy dataset bundled with scikit-learn. The project demonstrates exploratory data analysis, a baseline classifier, and a Git Flow release process.
 
+## Monorepo projects
+
+- `projects/project1/` contains a customer-segmentation simulation.
+- `projects/project2/` contains a Wine classification example.
+- `shared/` contains reusable dataframe validation utilities.
+
+Each project owns its `data/`, `notebooks/`, `src/`, `tests/`, and `models/` folders. Local datasets and generated model artifacts are ignored by Git.
+
 ## Dataset
 
 The project loads the built-in Iris dataset through `sklearn.datasets.load_iris`; no external download or dataset file is required. It contains 150 samples, four flower measurements, and three species labels. The `data/` directory is reserved for local data and is excluded from Git.

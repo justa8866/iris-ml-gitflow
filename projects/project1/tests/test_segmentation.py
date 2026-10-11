@@ -24,9 +24,7 @@ def test_segment_customers_requires_both_input_columns():
 
 
 def test_segment_customers_rejects_missing_values():
-    customers = pd.DataFrame(
-        {"annual_spend_pln": [1000], "orders_per_year": [None]}
-    )
+    customers = pd.DataFrame({"annual_spend_pln": [1000], "orders_per_year": [None]})
 
     with pytest.raises(ValueError, match="orders_per_year"):
         segment_customers(customers)

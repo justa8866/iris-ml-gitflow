@@ -17,3 +17,6 @@ htmlcov/
 !/projects/*/models/.gitkeep
 *.joblib
 *.pkl
+zadanie19_state.json
+zadanie19_state.tmp
+zadanie19_history.jsonl
